@@ -3,8 +3,10 @@
 Challenge was to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques.
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
- > Converted pics from external hosting to local
+ 'Converted pics from external hosting to local'
+ 
  > Optimzed images using Optimzilla
+ 
  > 
  >
 
