@@ -23,7 +23,7 @@ Optimized views/pizza.html, by modifying views/js/main.js until frames per secon
  
  * Time to resize pizza optimzed down to less than 5ms for the pizza side slider.
  
- * Modifed updatePositions() function to calculate the function outside of the loop.
+ * Modifed updatePositions() function to calculate outside of the loop.
 
  * Minified css and js.
 
