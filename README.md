@@ -2,11 +2,17 @@
 
 Challenge was to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques.
 
+> Desktop Score: 92/100
+  Mobile Score: 91/100
+  See Screenshot provided for PageSpeed Insight
+
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
  * Converted pics from external hosting to local.
  
  * Optimized images using optimizilla.com.
+ 
+ * Resized pizzeria thumb image.
  
  * Moved scripts to the bottom of the body.
  
