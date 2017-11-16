@@ -5,7 +5,17 @@ Challenge was to optimize this online portfolio for speed! In particular, optimi
 > Desktop Score: 95/100
 
 > Mobile Score: 94/100
+
+### Instructions
   
+* Open 'index.html' from the folder.
+
+* Scroll down and Click on 'Cam's Pizzeria' link.
+
+* Scroll down to see the pizzas sliding at 60 fps.
+
+* Use the pizza size slider on the page to change the size of pizza.
+
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
