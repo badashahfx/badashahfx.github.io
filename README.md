@@ -43,6 +43,8 @@ Optimized views/pizza.html, by modifying views/js/main.js until frames per secon
  * Modifed updatePositions() function to calculate outside of the loop.
  
  * Changed query.Selectors to getElementId
+ 
+ *  document.body.scrollTop was changed to document.documentElement.scrollTop since it doesn't work on chrome anymore.
 
  * Minified css and js.
 
