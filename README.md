@@ -2,7 +2,7 @@
 
 Challenge was to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques.
 
-> Desktop Score: 52/100
+> Desktop Score: 95/100
 
 > Mobile Score: 94/100
   
