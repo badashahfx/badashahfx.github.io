@@ -474,7 +474,7 @@ function updatePositions() {
   var items = document.querySelectorAll('.mover');
 
   for (var i = 0; i < items.length; i++) {
-    phase[i] = Math.sin((document.body.scrollTop / 1250) + (i % 5));
+    phase[i] = Math.sin((document.documentElement.scrollTop / 1250) + (i % 5));
   }
     // Phase seprated from the loop.
   for (var j = 0; j < items.length; j++) {
