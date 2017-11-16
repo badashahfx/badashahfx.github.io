@@ -6,7 +6,6 @@ Challenge was to optimize this online portfolio for speed! In particular, optimi
 
 > Mobile Score: 94/100
   
-See Screenshot provided for PageSpeed Insight
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
