@@ -404,6 +404,7 @@ var resizePizzas = function(size) {
   window.performance.mark("mark_start_resize");   // User Timing API function
 
   // Changes the value for the size of the pizza above the slider
+  // Changed query.Selectors to getElementId
 function changeSize(size) {
     switch(size) {
       case "1":
@@ -494,10 +495,11 @@ function updatePositions() {
 window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
+// Decreased the number of pizzas created
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 200; i++) {
+  for (var i = 0; i < 100; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
