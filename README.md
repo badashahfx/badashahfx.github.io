@@ -12,7 +12,7 @@ Challenge was to optimize this online portfolio for speed! In particular, optimi
 
 * Scroll down and Click on 'Cam's Pizzeria' link.
 
-* Scroll down to see the pizzas sliding at 60 fps (maybe not work on chrome - depending on the extensions being used)
+* Scroll down to see the pizzas sliding at 60 fps
 
 * Use the pizza size slider on the page to change the size of pizza.
 
