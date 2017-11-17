@@ -413,7 +413,7 @@ function changeSize(size) {
         return;
       case "2":
         document.getElementById("pizzaSize").innerHTML = "Medium";
-        //randomPizzas.className = "row medium";
+        randomPizzas.className = "row medium";
         return;
       case "3":
         document.getElementById("pizzaSize").innerHTML = "Large";
