@@ -403,7 +403,7 @@ var randomPizzas = document.getElementById("randomPizzas");
 var resizePizzas = function(size) {
   window.performance.mark("mark_start_resize");   // User Timing API function
 
-  // Changes the value for the size of the pizza above the slider
+   // Changes the value for the size of the pizza above the slider
   // Changed query.Selectors to getElementId
 function changeSize(size) {
     switch(size) {
@@ -425,20 +425,6 @@ function changeSize(size) {
   }
 
   changeSize(size);
- 
-    // Changes the slider value to a percent width
-    function sizeSwitcher (size) {
-      switch(size) {
-        case "1":
-          return 0.25;
-        case "2":
-          return 0.3333;
-        case "3":
-          return 0.5;
-        default:
-          console.log("bug in sizeSwitcher");
-      }
-    }
 
    
   // User Timing API is awesome
