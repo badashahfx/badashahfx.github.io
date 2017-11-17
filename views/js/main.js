@@ -409,7 +409,7 @@ function changeSize(size) {
     switch(size) {
       case "1":
         document.getElementById("pizzaSize").innerHTML = "Small";
-        //randomPizzas.className = "row small";
+        randomPizzas.className = "row small";
         return;
       case "2":
         document.getElementById("pizzaSize").innerHTML = "Medium";
@@ -417,7 +417,7 @@ function changeSize(size) {
         return;
       case "3":
         document.getElementById("pizzaSize").innerHTML = "Large";
-        //randomPizzas.className = "row big";
+        randomPizzas.className = "row big";
         return;
       default:
         console.log("bug in changeSliderLabel");
