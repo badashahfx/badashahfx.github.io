@@ -408,15 +408,15 @@ var resizePizzas = function(size) {
 function changeSize(size) {
     switch(size) {
       case "1":
-        document.querySelector("#pizzaSize").innerHTML = "Small";
+        document.getElementById("pizzaSize").innerHTML = "Small";
         randomPizzas.className = "row small";
         return;
       case "2":
-        document.querySelector("#pizzaSize").innerHTML = "Medium";
+        document.getElementById("pizzaSize").innerHTML = "Medium";
         randomPizzas.className = "row medium";
         return;
       case "3":
-        document.querySelector("#pizzaSize").innerHTML = "Large";
+        document.getElementById("pizzaSize").innerHTML = "Large";
         randomPizzas.className = "row big";
         return;
       default:
@@ -425,7 +425,6 @@ function changeSize(size) {
   }
 
   changeSize(size);
-
    
   // User Timing API is awesome
   window.performance.mark("mark_end_resize");
