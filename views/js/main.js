@@ -473,7 +473,7 @@ function updatePositions() {
 var items = document.querySelectorAll('.mover');
 var phase = [];
 for (var j = 0; j < items.length; j++) {
-  phase[j] = (Math.sin((document.body.scrollTop / 1250) + (j%5)));
+  phase[j] = (Math.sin((document.documentElement.scrollTop / 1250) + (j%5)));
 
   }
 //seprated phase from the loop which was causing forced layout.
