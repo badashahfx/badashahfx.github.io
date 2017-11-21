@@ -403,29 +403,52 @@ var randomPizzas = document.getElementById("randomPizzas");
 var resizePizzas = function(size) {
   window.performance.mark("mark_start_resize");   // User Timing API function
 
-  // Changes the value for the size of the pizza above the slider
-  // Changed query.Selectors to getElementId
-function changeSize(size) {
+// Changes the value for the size of the pizza above the slider
+function changeSliderLabel(size) {
     switch(size) {
       case "1":
-        document.getElementById("pizzaSize").innerHTML = "Small";
-        randomPizzas.className = "row small";
+        document.querySelector("#pizzaSize").innerHTML = "Small";
         return;
       case "2":
-        document.getElementById("pizzaSize").innerHTML = "Medium";
-        randomPizzas.className = "row medium";
+        document.querySelector("#pizzaSize").innerHTML = "Medium";
         return;
       case "3":
-        document.getElementById("pizzaSize").innerHTML = "Large";
-        randomPizzas.className = "row big";
+        document.querySelector("#pizzaSize").innerHTML = "Large";
         return;
       default:
         console.log("bug in changeSliderLabel");
     }
   }
 
-  changeSize(size);
+  changeSliderLabel(size);
+  
+ // Deleted out the Dx function and took out the switcher function.
+ // Changes the size pizzas.
+ function sizeSwitcher (size) {
+    switch(size) {
+      case "1":
+        return 0.25;
+      case "2":
+        return 0.3333;
+      case "3":
+        return 0.5;
+      default:
+        console.log("bug in sizeSwitcher");
+    }
+  }
+    var windowWidth = document.getElementById("randomPizzas").offsetWidth;
 
+  function changePizzaSizes(size) {
+    var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
+    
+  // Iterates through pizza elements on the page and changes their widths
+ // Removed Dx function and used style.width element to change pizza size
+   for (var i = 0; i < randomPizzas.length; i++) {
+      randomPizzas[i].style.width = (sizeSwitcher(size) * windowWidth) + 'px';
+    }
+  }
+  changePizzaSizes(size);
+  
    
   // User Timing API is awesome
   window.performance.mark("mark_end_resize");
